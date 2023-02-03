@@ -28,3 +28,7 @@ The machine learning model used in this web app will firstly have to be generate
 ```
 streamlit run app.py
 ```
+
+### Exploring the process
+
+If you would like to explore the process of choosing the data, cleaning it, processing it and then ultimately choosing a model you can check it out in DesDrugDisco.ipynb

@@ -43,7 +43,7 @@ st.image(image, use_column_width=True)
 st.markdown("""
 # Bioactivity Prediction App (Acetylcholinesterase)
 
-This app allows you to predict the bioactivity towards inhibting the `Acetylcholinesterase` enzyme. `Acetylcholinesterase` is a drug target for Alzheimer's disease.
+This app allows you to predict the bioactivity towards inhibting the `PADI4` enzyme. `PADI4` is a drug target for cancer as studies have demonstrated the high expression of PADI4 in various malignant tumour tissues.
 
 """)
 
