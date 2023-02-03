@@ -1,40 +1,23 @@
 # bioactivity-prediction-app
 
-# Watch the tutorial video
-
-[Bioinformatics Project from Scratch - Drug Discovery #6 (Deploy Model as Web App) | Streamlit #22](https://youtu.be/htBIP17S-20)
-
-<a href="https://youtu.be/m0sePkuyTKs"><img src="http://img.youtube.com/vi/m0sePkuyTKs/0.jpg" alt="Bioinformatics Project from Scratch - Drug Discovery #6 (Deploy Model as Web App) | Streamlit #22" title="Bioinformatics Project from Scratch - Drug Discovery #6 (Deploy Model as Web App) | Streamlit #22" width="400" /></a>
-
 # Reproducing this web app
 To recreate this web app on your own computer, do the following.
 
 ### Create conda environment
 Firstly, we will create a conda environment called *bioactivity*
 ```
-conda create -n bioactivity python=3.7.9
+ python3 -m venv venv
 ```
 Secondly, we will login to the *bioactivity* environement
 ```
-conda activate bioactivity
+source venv/bin/activate
 ```
 ### Install prerequisite libraries
-
-Download requirements.txt file
-
-```
-wget https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/requirements.txt
-
-```
 
 Pip install libraries
 ```
 pip install -r requirements.txt
 ```
-
-###  Download and unzip contents from GitHub repo
-
-Download and unzip contents from https://github.com/dataprofessor/bioactivity-prediction-app/archive/main.zip
 
 ### Generating the PKL file
 
